@@ -9,7 +9,7 @@ const getBooks= function () {
         if (res.status === 404) {
           throw new Error('Not found')
         } else {
-          throw new Error('Errore nella chiamata API')
+          throw new Error('Error in the call')
         }
       }
     })
